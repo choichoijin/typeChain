@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    //target 런타임 환경이 무엇인지 지정.
+    "target": "ES6",
+    //프로그램이 브라우저에서 실행되면 lib에 "DOM" 유형 정의.
+    //우린 이 API를 쓸 거다! 알려줌.
+    "lib": ["ES6", "DOM"]
+  }
+}
